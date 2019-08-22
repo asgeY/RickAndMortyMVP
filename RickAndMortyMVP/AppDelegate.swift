@@ -22,13 +22,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         if Auth.auth().currentUser != nil {
             if Auth.auth().currentUser!.isEmailVerified {
+                let appdelegate = UIApplication.shared.delegate as! AppDelegate
                 
-                window?.rootViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "tabController")
-                window?.makeKeyAndVisible()
-               // window?.rootViewController?.storyboard?.instantiateViewController(withIdentifier: "tabController")
-                
-
-
+                appdelegate.window?.rootViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "tabController")
+                appdelegate.window?.makeKeyAndVisible()
+            
             }else {
                 FirebaseController.signOut()
             }

@@ -37,7 +37,13 @@ class FirebaseRegisterViewController: UIViewController {
 
         FirebaseController.login(withEmail: userTextField.text!, password: passTextField.text!, { (error) in
             if error == nil && Auth.auth().currentUser!.isEmailVerified {
-                self.performSegue(withIdentifier: "goToMainScreen", sender: nil)
+                //self.performSegue(withIdentifier: "goToMainScreen", sender: nil)
+                //self.performSegue(withIdentifier: "goToMainScreen", sender: nil)
+                let appdelegate = UIApplication.shared.delegate as! AppDelegate
+                
+                appdelegate.window?.rootViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "tabController")
+                appdelegate.window?.makeKeyAndVisible()
+                
             }else {
                 print(error?.localizedDescription as Any)
                 let logInErrorAlert: UIAlertController = UIAlertController(title: "Oooops", message: "\(error?.localizedDescription ?? "Cuenta no verificada todavía")", preferredStyle: .alert)

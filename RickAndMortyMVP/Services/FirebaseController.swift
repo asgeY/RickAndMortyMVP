@@ -54,7 +54,7 @@ class FirebaseController {
         if FirebaseController.signOut() {
             //dismiss(animated: true, completion: nil)
             let appdelegate = UIApplication.shared.delegate as! AppDelegate
-            appdelegate.window?.rootViewController = UIStoryboard(name: "Main", bundle: nil).instantiateInitialViewController()
+            appdelegate.window?.rootViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "loginController")
             appdelegate.window?.makeKeyAndVisible()
             
         }else {

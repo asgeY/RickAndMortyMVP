@@ -265,7 +265,7 @@
         <!--Firebase Register View Controller-->
         <scene sceneID="DFy-o8-KRK">
             <objects>
-                <viewController id="y3f-CW-nLu" customClass="FirebaseRegisterViewController" customModule="RickAndMortyMVP" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="loginController" id="y3f-CW-nLu" customClass="FirebaseRegisterViewController" customModule="RickAndMortyMVP" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="del-of-mqD">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -355,7 +355,6 @@
                         <outlet property="passTextField" destination="jx1-Ql-B4d" id="L5B-iz-Dfy"/>
                         <outlet property="registerButton" destination="8tW-aY-Tll" id="Que-vz-fet"/>
                         <outlet property="userTextField" destination="UuQ-yL-iy8" id="t8d-Xt-WBz"/>
-                        <segue destination="Vbo-sx-Zdh" kind="presentation" identifier="goToMainScreen" id="N5q-9U-Qw7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rE2-Jv-9xw" userLabel="First Responder" sceneMemberID="firstResponder"/>
