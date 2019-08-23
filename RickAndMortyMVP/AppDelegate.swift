@@ -20,6 +20,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         FirebaseApp.configure()
         
+        #if DEBUG
+        print("DEBUG")
+        #endif
+        
+        #if RELEASE
+        print("RELEASE")
+        #endif
+        
+        
         if Auth.auth().currentUser != nil {
             if Auth.auth().currentUser!.isEmailVerified {
                 let appdelegate = UIApplication.shared.delegate as! AppDelegate
@@ -38,6 +47,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
         // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.
+        
+        let blurEffect = UIBlurEffect(style: .regular)
+        let blurEffectView = UIVisualEffectView(effect: blurEffect)
+        blurEffectView.frame = self.window!.frame
+        blurEffectView.tag = 20000
+        self.window?.addSubview(blurEffectView)
     }
     
     func applicationDidEnterBackground(_ application: UIApplication) {
@@ -51,6 +66,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func applicationDidBecomeActive(_ application: UIApplication) {
         // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+        self.window?.viewWithTag(20000)?.removeFromSuperview()
     }
     
     func applicationWillTerminate(_ application: UIApplication) {

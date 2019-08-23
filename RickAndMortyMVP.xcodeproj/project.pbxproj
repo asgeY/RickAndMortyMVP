@@ -18,10 +18,38 @@
 		6335142D230E95D30042AEF3 /* EpisodePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6335142C230E95D30042AEF3 /* EpisodePresenter.swift */; };
 		6335142F230E95E10042AEF3 /* LocationPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6335142E230E95E10042AEF3 /* LocationPresenter.swift */; };
 		63351431230EA9910042AEF3 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63351430230EA9910042AEF3 /* User.swift */; };
+		6335143523100D5B0042AEF3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454D9ED2303DCAD000982C1 /* ViewController.swift */; };
+		6335143623100D5B0042AEF3 /* EpisodePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6335142C230E95D30042AEF3 /* EpisodePresenter.swift */; };
+		6335143723100D5B0042AEF3 /* Episode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6334FDEB230A90D5003E8D25 /* Episode.swift */; };
+		6335143823100D5B0042AEF3 /* IdentifiableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454DA022303E214000982C1 /* IdentifiableCell.swift */; };
+		6335143923100D5B0042AEF3 /* PagedInfoLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6334FDEF230A9607003E8D25 /* PagedInfoLocation.swift */; };
+		6335143A23100D5B0042AEF3 /* EpisodeCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6334FDF1230A97AC003E8D25 /* EpisodeCollectionViewController.swift */; };
+		6335143B23100D5B0042AEF3 /* CharacterPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6335142A230E84750042AEF3 /* CharacterPresenter.swift */; };
+		6335143C23100D5B0042AEF3 /* FirebaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CC202B230D1DE600A81E9A /* FirebaseController.swift */; };
+		6335143D23100D5B0042AEF3 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9B90523043A510028F297 /* Location.swift */; };
+		6335143E23100D5B0042AEF3 /* LocationCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6334FDF7230AC14A003E8D25 /* LocationCollectionViewController.swift */; };
+		6335143F23100D5B0042AEF3 /* LocationCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6334FDF5230AC12A003E8D25 /* LocationCollectionViewCell.swift */; };
+		6335144023100D5B0042AEF3 /* CharacterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9B8FD23041F4F0028F297 /* CharacterTableViewController.swift */; };
+		6335144123100D5B0042AEF3 /* CharacterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454DA0D2303E642000982C1 /* CharacterTableViewCell.swift */; };
+		6335144223100D5B0042AEF3 /* PagedInfoEpisode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6334FDED230A954F003E8D25 /* PagedInfoEpisode.swift */; };
+		6335144323100D5B0042AEF3 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454DA0B2303E427000982C1 /* Character.swift */; };
+		6335144423100D5B0042AEF3 /* LocationPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6335142E230E95E10042AEF3 /* LocationPresenter.swift */; };
+		6335144523100D5B0042AEF3 /* PagedInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9B901230421750028F297 /* PagedInfoController.swift */; };
+		6335144623100D5B0042AEF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454D9EB2303DCAD000982C1 /* AppDelegate.swift */; };
+		6335144723100D5B0042AEF3 /* FirebaseRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CC2029230C0D1200A81E9A /* FirebaseRegisterViewController.swift */; };
+		6335144823100D5B0042AEF3 /* EpisodeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6334FDF3230AAD0F003E8D25 /* EpisodeCollectionViewCell.swift */; };
+		6335144923100D5B0042AEF3 /* CharacterDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9B903230438FF0028F297 /* CharacterDetailTableViewController.swift */; };
+		6335144A23100D5B0042AEF3 /* PagedInfoCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454DA112303F6C6000982C1 /* PagedInfoCharacter.swift */; };
+		6335144B23100D5B0042AEF3 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63351430230EA9910042AEF3 /* User.swift */; };
+		6335144D23100D5B0042AEF3 /* Pods_RickAndMorty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 345837327BE2BC1A0F60165E /* Pods_RickAndMorty.framework */; };
+		6335144F23100D5B0042AEF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8454D9F42303DCAD000982C1 /* LaunchScreen.storyboard */; };
+		6335145023100D5B0042AEF3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 63CC2027230BF87100A81E9A /* GoogleService-Info.plist */; };
+		6335145123100D5B0042AEF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8454D9EF2303DCAD000982C1 /* Main.storyboard */; };
+		6335145223100D5B0042AEF3 /* CharacterTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8454DA0E2303E642000982C1 /* CharacterTableViewCell.xib */; };
+		63351462231010100042AEF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63CC202D230D615A00A81E9A /* Assets.xcassets */; };
 		63CC2028230BF87100A81E9A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 63CC2027230BF87100A81E9A /* GoogleService-Info.plist */; };
 		63CC202A230C0D1200A81E9A /* FirebaseRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CC2029230C0D1200A81E9A /* FirebaseRegisterViewController.swift */; };
 		63CC202C230D1DE600A81E9A /* FirebaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CC202B230D1DE600A81E9A /* FirebaseController.swift */; };
-		63CC202E230D615A00A81E9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63CC202D230D615A00A81E9A /* Assets.xcassets */; };
 		8454D9EC2303DCAD000982C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454D9EB2303DCAD000982C1 /* AppDelegate.swift */; };
 		8454D9EE2303DCAD000982C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454D9ED2303DCAD000982C1 /* ViewController.swift */; };
 		8454D9F12303DCAD000982C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8454D9EF2303DCAD000982C1 /* Main.storyboard */; };
@@ -53,6 +81,8 @@
 		6335142C230E95D30042AEF3 /* EpisodePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodePresenter.swift; sourceTree = "<group>"; };
 		6335142E230E95E10042AEF3 /* LocationPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPresenter.swift; sourceTree = "<group>"; };
 		63351430230EA9910042AEF3 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		6335145823100D5B0042AEF3 /* RickAndMortyMVP-debug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RickAndMortyMVP-debug.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6335145923100D5C0042AEF3 /* RickAndMortyMVP copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "RickAndMortyMVP copy-Info.plist"; path = "/Users/s6402rs/Documents/RickAndMortyMVP/RickAndMortyMVP copy-Info.plist"; sourceTree = "<absolute>"; };
 		63CC2027230BF87100A81E9A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		63CC2029230C0D1200A81E9A /* FirebaseRegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseRegisterViewController.swift; sourceTree = "<group>"; };
 		63CC202B230D1DE600A81E9A /* FirebaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseController.swift; sourceTree = "<group>"; };
@@ -75,6 +105,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		6335144C23100D5B0042AEF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6335144D23100D5B0042AEF3 /* Pods_RickAndMorty.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8454D9E52303DCAD000982C1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -103,6 +141,7 @@
 				8454D9E92303DCAD000982C1 /* Products */,
 				98B670B24997F3ABF14BBFC2 /* Pods */,
 				E294DCF5C2F5831A7654FAF3 /* Frameworks */,
+				6335145923100D5C0042AEF3 /* RickAndMortyMVP copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				8454D9E82303DCAD000982C1 /* RickAndMortyMVP.app */,
+				6335145823100D5B0042AEF3 /* RickAndMortyMVP-debug.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -208,6 +248,25 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		6335143223100D5B0042AEF3 /* RickAndMortyMVP-debug */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6335145523100D5B0042AEF3 /* Build configuration list for PBXNativeTarget "RickAndMortyMVP-debug" */;
+			buildPhases = (
+				6335143323100D5B0042AEF3 /* [CP] Check Pods Manifest.lock */,
+				6335143423100D5B0042AEF3 /* Sources */,
+				6335144C23100D5B0042AEF3 /* Frameworks */,
+				6335144E23100D5B0042AEF3 /* Resources */,
+				6335145423100D5B0042AEF3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RickAndMortyMVP-debug";
+			productName = RickAndMorty;
+			productReference = 6335145823100D5B0042AEF3 /* RickAndMortyMVP-debug.app */;
+			productType = "com.apple.product-type.application";
+		};
 		8454D9E72303DCAD000982C1 /* RickAndMortyMVP */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8454D9FA2303DCAD000982C1 /* Build configuration list for PBXNativeTarget "RickAndMortyMVP" */;
@@ -256,11 +315,23 @@
 			projectRoot = "";
 			targets = (
 				8454D9E72303DCAD000982C1 /* RickAndMortyMVP */,
+				6335143223100D5B0042AEF3 /* RickAndMortyMVP-debug */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		6335144E23100D5B0042AEF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6335144F23100D5B0042AEF3 /* LaunchScreen.storyboard in Resources */,
+				6335145023100D5B0042AEF3 /* GoogleService-Info.plist in Resources */,
+				6335145123100D5B0042AEF3 /* Main.storyboard in Resources */,
+				6335145223100D5B0042AEF3 /* CharacterTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8454D9E62303DCAD000982C1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -269,7 +340,7 @@
 				63CC2028230BF87100A81E9A /* GoogleService-Info.plist in Resources */,
 				8454D9F12303DCAD000982C1 /* Main.storyboard in Resources */,
 				8454DA102303E642000982C1 /* CharacterTableViewCell.xib in Resources */,
-				63CC202E230D615A00A81E9A /* Assets.xcassets in Resources */,
+				63351462231010100042AEF3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +369,45 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		6335143323100D5B0042AEF3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RickAndMorty-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6335145423100D5B0042AEF3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RickAndMorty/Pods-RickAndMorty-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RickAndMorty/Pods-RickAndMorty-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RickAndMorty/Pods-RickAndMorty-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		6885E5274871D89E17323199 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -318,6 +428,36 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		6335143423100D5B0042AEF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6335143523100D5B0042AEF3 /* ViewController.swift in Sources */,
+				6335143623100D5B0042AEF3 /* EpisodePresenter.swift in Sources */,
+				6335143723100D5B0042AEF3 /* Episode.swift in Sources */,
+				6335143823100D5B0042AEF3 /* IdentifiableCell.swift in Sources */,
+				6335143923100D5B0042AEF3 /* PagedInfoLocation.swift in Sources */,
+				6335143A23100D5B0042AEF3 /* EpisodeCollectionViewController.swift in Sources */,
+				6335143B23100D5B0042AEF3 /* CharacterPresenter.swift in Sources */,
+				6335143C23100D5B0042AEF3 /* FirebaseController.swift in Sources */,
+				6335143D23100D5B0042AEF3 /* Location.swift in Sources */,
+				6335143E23100D5B0042AEF3 /* LocationCollectionViewController.swift in Sources */,
+				6335143F23100D5B0042AEF3 /* LocationCollectionViewCell.swift in Sources */,
+				6335144023100D5B0042AEF3 /* CharacterTableViewController.swift in Sources */,
+				6335144123100D5B0042AEF3 /* CharacterTableViewCell.swift in Sources */,
+				6335144223100D5B0042AEF3 /* PagedInfoEpisode.swift in Sources */,
+				6335144323100D5B0042AEF3 /* Character.swift in Sources */,
+				6335144423100D5B0042AEF3 /* LocationPresenter.swift in Sources */,
+				6335144523100D5B0042AEF3 /* PagedInfoController.swift in Sources */,
+				6335144623100D5B0042AEF3 /* AppDelegate.swift in Sources */,
+				6335144723100D5B0042AEF3 /* FirebaseRegisterViewController.swift in Sources */,
+				6335144823100D5B0042AEF3 /* EpisodeCollectionViewCell.swift in Sources */,
+				6335144923100D5B0042AEF3 /* CharacterDetailTableViewController.swift in Sources */,
+				6335144A23100D5B0042AEF3 /* PagedInfoCharacter.swift in Sources */,
+				6335144B23100D5B0042AEF3 /* User.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8454D9E42303DCAD000982C1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -370,6 +510,42 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		6335145623100D5B0042AEF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BE6E3185024FFE5F7A27EDC /* Pods-RickAndMorty.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "RickAndMortyMVP copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RickAndMortyMVP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6335145723100D5B0042AEF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5408EC4715534EF18388C059 /* Pods-RickAndMorty.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "RickAndMortyMVP copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RickAndMortyMVP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		8454D9F82303DCAD000982C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -499,6 +675,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.RickAndMortyMVP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = RELEASE;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -525,6 +702,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		6335145523100D5B0042AEF3 /* Build configuration list for PBXNativeTarget "RickAndMortyMVP-debug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6335145623100D5B0042AEF3 /* Debug */,
+				6335145723100D5B0042AEF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		8454D9E32303DCAD000982C1 /* Build configuration list for PBXProject "RickAndMortyMVP" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

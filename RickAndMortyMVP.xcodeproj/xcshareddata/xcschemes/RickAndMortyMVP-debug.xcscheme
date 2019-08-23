@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1020"
+   LastUpgradeVersion = "1030"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8454D9E72303DCAD000982C1"
-               BuildableName = "RickAndMorty.app"
-               BlueprintName = "RickAndMorty"
-               ReferencedContainer = "container:RickAndMorty.xcodeproj">
+               BlueprintIdentifier = "6335143223100D5B0042AEF3"
+               BuildableName = "RickAndMortyMVP-debug.app"
+               BlueprintName = "RickAndMortyMVP-debug"
+               ReferencedContainer = "container:RickAndMortyMVP.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,9 +32,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8454D9E72303DCAD000982C1"
-            BuildableName = "RickAndMortyMVP.app"
-            BlueprintName = "RickAndMortyMVP"
+            BlueprintIdentifier = "6335143223100D5B0042AEF3"
+            BuildableName = "RickAndMortyMVP-debug.app"
+            BlueprintName = "RickAndMortyMVP-debug"
             ReferencedContainer = "container:RickAndMortyMVP.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -42,9 +42,9 @@
       </AdditionalOptions>
    </TestAction>
    <LaunchAction
-      buildConfiguration = "Release"
-      selectedDebuggerIdentifier = ""
-      selectedLauncherIdentifier = "Xcode.IDEFoundation.Launcher.PosixSpawn"
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
@@ -55,9 +55,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8454D9E72303DCAD000982C1"
-            BuildableName = "RickAndMortyMVP.app"
-            BlueprintName = "RickAndMortyMVP"
+            BlueprintIdentifier = "6335143223100D5B0042AEF3"
+            BuildableName = "RickAndMortyMVP-debug.app"
+            BlueprintName = "RickAndMortyMVP-debug"
             ReferencedContainer = "container:RickAndMortyMVP.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8454D9E72303DCAD000982C1"
-            BuildableName = "RickAndMorty.app"
-            BlueprintName = "RickAndMorty"
-            ReferencedContainer = "container:RickAndMorty.xcodeproj">
+            BlueprintIdentifier = "6335143223100D5B0042AEF3"
+            BuildableName = "RickAndMortyMVP-debug.app"
+            BlueprintName = "RickAndMortyMVP-debug"
+            ReferencedContainer = "container:RickAndMortyMVP.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

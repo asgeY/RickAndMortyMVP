@@ -16,7 +16,6 @@ class PagedInfoController: UITableViewController {
         
         //let queries = "?page=\(numPage)"
         //let url = baseURL.withQueries(queries)!
-        
         let jsonDecoder = JSONDecoder()
         
         // Alamofire cambia en la version 5 de "Alamofire.request(...." a "AF.request(...."

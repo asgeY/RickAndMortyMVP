@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>RickAndMortyMVP-debug.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>21</integer>
+		</dict>
 		<key>RickAndMortyMVP.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -12,6 +17,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>6335143223100D5B0042AEF3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>8454D9E72303DCAD000982C1</key>
 		<dict>
 			<key>primary</key>
